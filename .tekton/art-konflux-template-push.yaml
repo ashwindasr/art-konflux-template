@@ -152,6 +152,8 @@ spec:
         value: $(params.output-image).git
       - name: ociArtifactExpiresAfter
         value: $(params.image-expires-after)
+      - name: refspec
+        value: "+refs/heads/*:refs/remotes/origin/*"
       runAfter:
       - init
       taskRef:
