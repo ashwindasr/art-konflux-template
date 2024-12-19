@@ -153,7 +153,7 @@ spec:
       - name: ociArtifactExpiresAfter
         value: $(params.image-expires-after)
       - name: refspec
-        value: "+refs/heads/*:refs/remotes/origin/*"
+        value: "+refs/heads/*:refs/heads/*"
       runAfter:
       - init
       taskRef:
