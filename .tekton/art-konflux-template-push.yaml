@@ -20,7 +20,7 @@ spec:
   - name: hermetic
     value: "true"
   - name: prefetch-input
-    value: [{"type": "gomod", "path": "."},{"type": "yarn", "path": "."}]
+    value: [{"type": "gomod", "path": "."},{"type": "yarn", "path": "frontend"}]
   - name: git-url
     value: '{{source_url}}'
   - name: revision
