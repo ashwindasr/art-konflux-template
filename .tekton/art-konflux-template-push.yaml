@@ -17,6 +17,10 @@ metadata:
   namespace: ocp-art-tenant
 spec:
   params:
+  - name: hermetic
+    value: "true"
+  - name: prefetch-input
+    value: [{"type": "gomod", "path": "."},{"type": "yarn", "path": "."}]
   - name: git-url
     value: '{{source_url}}'
   - name: revision
