@@ -233,7 +233,7 @@ spec:
         - name: name
           value: buildah-remote-oci-ta
         - name: bundle
-          value: http://quay.io/mkosiarc_rhtap/buildah-remote-oci-ta@sha256:88d7fc1603c3caf3202f9d1f0b91b0f06079e0695cb93ff210e4f8681163cbdc
+          value: quay.io/mkosiarc_rhtap/buildah-remote-oci-ta@sha256:88d7fc1603c3caf3202f9d1f0b91b0f06079e0695cb93ff210e4f8681163cbdc
         - name: kind
           value: task
         resolver: bundles
